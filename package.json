@@ -1,0 +1,14 @@
+{
+  "name": "exchange",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run dev",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
